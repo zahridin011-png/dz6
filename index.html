@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Docment</title>
+    <link rel="stylesheet" href="./style..css">
+   
+</head>
+<body>
+
+    <h3 id="newYear"></h3>
+
+    <h2>Таймер: <span id="timerText">10</span></h2>
+    <button onclick="startTimer()">Старт</button>
+    <button onclick="resetTimer()">Сброс</button>
+
+    <h2>Секундомер: <span id="swText">0</span></h2>
+    <button onclick="startSw()">Старт</button>
+    <button onclick="addLap()">Круг</button>
+    <button onclick="resetSw()">Сброс</button>
+    <ul id="laps"></ul>
+
+    <h2>Будильник</h2>
+    <input type="text" id="alarmInput" placeholder="18:30">
+    <button onclick="setAlarm()">Поставить</button>
+    <p id="alarmMsg"></p>
+
+   <script src="./script.js"></script>
+</body>
+</html>
